@@ -20,7 +20,7 @@ async function imprimeLista(valida, resultado,identificador = ''){
 
 async function processaTexto(argumentos){
     const caminho = argumentos[2];
-    const valida = argumentos[3] === '--valida';
+    const valida = argumentos[3] === 'valida';
 
     try{
         fs.statSync(caminho);
